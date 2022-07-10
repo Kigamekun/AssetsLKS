@@ -1,6 +1,7 @@
 {
     "name": "kigamekun/marketplace-kiga",
-    "description": "laravel marketplace",
+    "description": "Laravel marketplace generator from Kiga (Reksa) MVC",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kigamekun",
