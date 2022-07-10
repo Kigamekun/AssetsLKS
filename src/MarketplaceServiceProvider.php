@@ -30,14 +30,17 @@ class MarketplaceServiceProvider extends ServiceProvider
 
         // Assets Publish
         $this->publishes([
-            __DIR__.'/../resources/views' => public_path('views/layouts'),
+            __DIR__.'/../resources/assets/assets' => public_path('assets'),
         ]);
 
+        $this->publishes([
+            __DIR__.'/../resources/assets/assets_user' => public_path('asset_user'),
+        ]);
 
         // Migration Publish
         $this->publishes([
-            __DIR__ . '/../database/migrations/' => database_path('migrations/my-package'),
-        ], 'my-package-migrations');
+            __DIR__ . '/../resources/migrations' => database_path('migrations'),
+        ], 'market-migrations');
 
     }
 }

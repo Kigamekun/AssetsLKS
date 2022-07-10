@@ -1,0 +1,203 @@
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*Variable Color*/
+*, ::before, ::after, p, h1, h2, h3, h4, h5, h6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#app {
+  /*Navbar*/
+  /*main content*/
+}
+
+#app .headerNavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #15161D;
+  padding: 1.2rem 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 5px solid #FF6F03;
+}
+
+#app .headerNavbar .navbarBrand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#app .headerNavbar .navbarBrand .iconBrand {
+  width: 100%;
+  max-width: 62px;
+  max-height: 62px;
+  margin-right: 1rem;
+}
+
+#app .headerNavbar .navbarBrand .brandName {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#app .headerNavbar .search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#app .headerNavbar .search input {
+  width: 100%;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  padding: 0 .5rem;
+  font-size: 14px;
+}
+
+#app .headerNavbar .search .buttonSearch {
+  border: none;
+  background-color: #FF6F03 !important;
+  padding: .4rem .8rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0 8px 8px 0;
+}
+
+#app .headerNavbar .userControl {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#app .headerNavbar .userControl .profile, #app .headerNavbar .userControl .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#app .headerNavbar .userControl .profile ion-icon, #app .headerNavbar .userControl .cart ion-icon {
+  color: #FF6F03;
+  margin-right: 6px;
+  font-size: 22px;
+}
+
+#app .headerNavbar .userControl .profile {
+  margin-right: 1.5rem;
+}
+
+#app .mainContent {
+  padding: 5rem 0;
+}
+
+#app .mainContent .content .namePage {
+  font-weight: 800;
+  color: #15161D;
+  margin-bottom: 1.5rem;
+}
+
+/*Button Component*/
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  padding: .6rem 1rem;
+}
+
+.button.buttonPrimary {
+  background-color: #FF6F03 !important;
+  color: #ffffff;
+}
+
+.button.buttonBorder {
+  border-radius: 8px;
+}
+
+.button.textButton {
+  padding: 0 !important;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
+.button.textButton.textButtonPrimary {
+  color: #FF6F03;
+}
+
+.button.buttonGrey {
+  background-color: #eaeaea;
+  color: #15161D;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/*status*/
+.status {
+  padding: 4px 12px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.status.statusSuccess {
+  background-color: #d5ffdc !important;
+  color: #0aab0f;
+}
+
+@media screen and (max-width: 991px) {
+  /*Responsive navbar*/
+  #app .headerNavbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  #app .headerNavbar .navbarBrand {
+    margin-bottom: 1rem;
+  }
+  #app .headerNavbar .navbarBrand .iconBrand {
+    max-width: 36px;
+    margin-right: .5rem;
+  }
+  #app .headerNavbar .navbarBrand .brandName {
+    font-size: 14px;
+  }
+  #app .headerNavbar .search {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,133 @@
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*Variable Color*/
+.profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ebedee;
+  padding-bottom: 1rem;
+}
+
+.profiles .iconProfile {
+  font-size: 32px;
+  margin-right: .5rem;
+}
+
+.menuWrapper {
+  list-style: none;
+  padding: 0;
+  padding: 1rem 0;
+}
+
+.menuWrapper li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #15161D;
+  text-decoration: none;
+  font-size: 14px;
+  padding: .5rem 0;
+}
+
+.menuWrapper li a.active {
+  color: #FF6F03;
+}
+
+.menuWrapper li a ion-icon {
+  font-size: 22px;
+  margin-right: .5rem;
+}
+
+.product {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ebedee;
+}
+
+.product .detailStatusProduct {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+.product .detailStatusProduct .icon ion-icon {
+  font-size: 18px;
+  color: #FF6F03;
+}
+
+.product .detailStatusProduct .tanggal {
+  font-weight: 300;
+}
+
+.product .detailStatusProduct .codeBooking {
+  font-weight: 300;
+}
+
+.product .detailProduct {
+  margin-bottom: 1.5rem;
+}
+
+.product .detailProduct .imageProduct {
+  width: 100%;
+  max-width: 82px;
+  max-height: 82px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.product .detailProduct .informationProduct h5 {
+  font-size: 14px;
+  margin-bottom: .5rem;
+}
+
+.product .detailProduct .informationProduct p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.product .detailProduct .totalBelanja {
+  border-left: 1px solid #ebedee;
+  padding-left: 1rem;
+}
+
+.product .detailProduct .totalBelanja p {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 300;
+}
+
+.product .detailProduct .totalBelanja h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .detailProduct {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .detailProduct .totalBelanja {
+    padding: 0 !important;
+    border: none !important;
+  }
+  .controlProduct .button {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=history-transaksi.css.map */
