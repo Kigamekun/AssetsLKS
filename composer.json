@@ -1,0 +1,23 @@
+{
+    "name": "kigamekun/marketplace-kiga",
+    "description": "laravel marketplace",
+    "authors": [
+        {
+            "name": "Kigamekun",
+            "email": "reksa.prayoga1012@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kigamekun\\MarketplaceKiga\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kigamekun\\MarketplaceKiga\\MarketplaceServiceProvider"
+            ]
+        }
+    }
+}
