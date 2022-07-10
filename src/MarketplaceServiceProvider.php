@@ -20,12 +20,12 @@ class MarketplaceServiceProvider extends ServiceProvider
 
         // Views Admin Publish
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/admin'),
+            __DIR__.'/../resources/views/admin' => resource_path('views/admin'),
         ]);
 
         // Base Layouts Publish
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/layouts'),
+            __DIR__.'/../resources/views/layouts' => resource_path('views/layouts'),
         ]);
 
         // Assets Publish
