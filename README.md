@@ -32,6 +32,29 @@ composer require kigamekun/marketplace-kiga
 }
 
 
+#comments-title {
+    margin-bottom:10px;
+}
+
+#comments-list ul{
+    margin-top:20px;
+}
+
+#comments-list {
+    height:300px;
+    overflow:auto;
+}
+
+
+.comment-body {
+    padding:5px;
+    background:#f3f3f3;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
+
+
  Jurusan Sastra Paling Diminati, dari Sastra Inggris hingga Korea
 define('WP_ADMIN_DIR', 'admin');  
 define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . WP_ADMIN_DIR);
