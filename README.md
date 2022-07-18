@@ -5,15 +5,119 @@ composer require laravel/sanctum
 composer require kigamekun/auth-api
 composer require kigamekun/marketplace-kiga
 
-#head {
-    background: url('http://www.gamingfortheweekend.com/wp-content/uploads/2017/08/News-Banner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-position: center;
-    min-height: 400px;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
 }
+
+    .navbars {
+        padding:20px;
+        background:#1E1F29;
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .navbars a {
+        color:white;
+        text-decoration:none;
+    }
+
+    .singles {
+        display:flex;
+    }
+
+    #footer {
+        background:#1E1F29;
+        padding:20px;
+        height:200px;
+        list-style:none;
+        color:white;
+    }
+
+    .cat-item {
+        margin-top:20px;
+    }
+
+    .entry-title {
+        font-weight:bold;
+        font-size:25px;
+        margin-top:0px;
+        color:black;
+    }
+
+    .wrapper-summary {
+        display:flex;
+    }
+
+    .entry-title a {
+        color:black;
+    }
+
+    .singles img {
+        border-radius:5px;
+    }
+
+    a{
+        text-decoration:none;
+    }
+
+    .navbars div {
+        display:flex;
+        align-items:center;
+    }
+
+    .search-form {
+        display:flex;
+        align-items:center;
+    }
+
+    .container {
+        width:90%;
+        margin:auto;
+    }
+
+    .content {
+        display:flex; 
+    }
+    .content img {
+        width:300px;
+        height:200px;
+        border-radius:5px;
+    }
+    
+    input[type=text],input[type=search], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+@media screen and (max-width: 991px){
+    .singles {
+        flex-wrap:wrap;
+    }
+}
+
 
 define('WP_ADMIN_DIR', 'admin');  
 define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . WP_ADMIN_DIR);
