@@ -59,7 +59,7 @@ composer require kigamekun/marketplace-kiga
 define('WP_ADMIN_DIR', 'admin');  
 define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . WP_ADMIN_DIR);
 
-sudo cp -rf wordpress/ /var/www/ ; cd /var/www/ ; sudo chmod -R 777 wordpress/ ; cd wordpress ; code .
+sudo cp -rf wordpress/ /var/www/GitLKS/ ; cd /var/www/GitLKS/ ; sudo chmod -R 777 wordpress/ ; cd wordpress ; code .
 
 #1E1F29
 Prediksi Line Up Mengerikan Barcelona Setelah Robert Lewandowski Gabung: Otomatis Juara Liga Champions?
